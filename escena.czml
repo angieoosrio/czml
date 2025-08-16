@@ -1,0 +1,98 @@
+[
+  {
+    "id": "document",
+    "name": "Formas extruidas en ciudades",
+    "version": "1.0",
+    "clock": {
+      "interval": "2025-08-01T00:00:00Z/2025-08-10T23:59:59Z",
+      "currentTime": "2025-08-01T00:00:00Z",
+      "multiplier": 50000,
+      "range": "LOOP_STOP",
+      "step": "SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+
+  {
+    "id": "bogota-cuadrado",
+    "name": "Bogotá - Cuadrado",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -74.20, 4.60, 0,
+          -73.95, 4.60, 0,
+          -73.95, 4.80, 0,
+          -74.20, 4.80, 0
+        ]
+      },
+      "material": { "solidColor": { "color": { "rgba": [255, 0, 0, 180] } } },
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-02T23:59:59Z", "number": 50000 },
+        { "interval": "2025-08-03T00:00:00Z/2025-08-05T23:59:59Z", "number": 200000 },
+        { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 500000 },
+        { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 800000 }
+      ]
+    }
+  },
+
+  {
+    "id": "medellin-triangulo",
+    "name": "Medellín - Triángulo",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -75.70, 6.20, 0,
+          -75.40, 6.20, 0,
+          -75.55, 6.45, 0
+        ]
+      },
+      "material": { "solidColor": { "color": { "rgba": [0, 255, 0, 180] } } },
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-02T23:59:59Z", "number": 60000 },
+        { "interval": "2025-08-03T00:00:00Z/2025-08-05T23:59:59Z", "number": 250000 },
+        { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 600000 },
+        { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 900000 }
+      ]
+    }
+  },
+
+  {
+    "id": "cali-circulo",
+    "name": "Cali - Círculo",
+    "position": { "cartographicDegrees": [-76.53, 3.45, 0] },
+    "ellipse": {
+      "semiMinorAxis": 40000,
+      "semiMajorAxis": 40000,
+      "material": { "solidColor": { "color": { "rgba": [0, 0, 255, 180] } } },
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-02T23:59:59Z", "number": 70000 },
+        { "interval": "2025-08-03T00:00:00Z/2025-08-05T23:59:59Z", "number": 300000 },
+        { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 700000 },
+        { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 1200000 }
+      ]
+    }
+  },
+
+  {
+    "id": "barranquilla-hexagono",
+    "name": "Barranquilla - Hexágono",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -74.85, 10.95, 0,
+          -74.75, 10.95, 0,
+          -74.70, 11.00, 0,
+          -74.75, 11.05, 0,
+          -74.85, 11.05, 0,
+          -74.90, 11.00, 0
+        ]
+      },
+      "material": { "solidColor": { "color": { "rgba": [255, 255, 0, 180] } } },
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-02T23:59:59Z", "number": 80000 },
+        { "interval": "2025-08-03T00:00:00Z/2025-08-05T23:59:59Z", "number": 250000 },
+        { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 600000 },
+        { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 1000000 }
+      ]
+    }
+  }
+]
