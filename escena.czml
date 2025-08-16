@@ -31,7 +31,18 @@
         { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 500000 },
         { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 800000 }
       ]
-    }
+    },
+    "label": {
+      "text": "Bogotá",
+      "font": "20px sans-serif",
+      "fillColor": { "rgba": [255, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "position": { "cartographicDegrees": [-74.08, 4.70, 0] }
   },
 
   {
@@ -52,7 +63,18 @@
         { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 600000 },
         { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 900000 }
       ]
-    }
+    },
+    "label": {
+      "text": "Medellín",
+      "font": "20px sans-serif",
+      "fillColor": { "rgba": [255, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "position": { "cartographicDegrees": [-75.55, 6.30, 0] }
   },
 
   {
@@ -69,6 +91,16 @@
         { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 700000 },
         { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 1200000 }
       ]
+    },
+    "label": {
+      "text": "Cali",
+      "font": "20px sans-serif",
+      "fillColor": { "rgba": [255, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
     }
   },
 
@@ -93,6 +125,17 @@
         { "interval": "2025-08-06T00:00:00Z/2025-08-08T23:59:59Z", "number": 600000 },
         { "interval": "2025-08-09T00:00:00Z/2025-08-10T23:59:59Z", "number": 1000000 }
       ]
-    }
+    },
+    "label": {
+      "text": "Barranquilla",
+      "font": "20px sans-serif",
+      "fillColor": { "rgba": [255, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "position": { "cartographicDegrees": [-74.80, 11.00, 0] }
   }
 ]
